@@ -1,4 +1,4 @@
-import "./style.css";
+import "./Style.css";
 import { XMarkIcon } from "@heroicons/react/24/solid";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
