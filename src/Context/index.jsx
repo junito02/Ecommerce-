@@ -7,7 +7,7 @@ export const ShoppingCartProvider = ({ children }) => {
   const [count, setCount] = useState(0);
 
   //abrir y cerrar el modal productDetail
-  const [isproductDetailOpen, setIsProductDetailOpen] = useState(false);
+  const [isProductDetailOpen, setIsProductDetailOpen] = useState(false);
   const openProductDetail = () => setIsProductDetailOpen(true);
   const closeProductDetail = () => setIsProductDetailOpen(false);
 
@@ -95,7 +95,7 @@ export const ShoppingCartProvider = ({ children }) => {
         setCount,
         openProductDetail,
         closeProductDetail,
-        isproductDetailOpen,
+        isProductDetailOpen,
         productToShow,
         setProductToShow,
         cartProducts,
