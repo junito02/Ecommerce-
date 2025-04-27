@@ -22,7 +22,6 @@ export const ShoppingCartProvider = ({ children }) => {
 
   //shopping cart.  Add product to cart
   const [cartProducts, setCartProducts] = useState([]);
-
   //shopping cart.order
   const [order, setOrder] = useState([]);
 
